@@ -1,0 +1,1 @@
+body{margin:0;padding:20px;font-family:Arial}.products{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;display:grid}.card{text-align:center;border:1px solid gray;border-radius:10px;padding:15px}.card img{object-fit:contain;width:120px;height:120px}.product-page img{object-fit:contain;width:250px;height:250px}button{cursor:pointer;padding:10px 20px}
