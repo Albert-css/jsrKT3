@@ -5,7 +5,7 @@ import App from "./App";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+<BrowserRouter basename={window.location.pathname.includes('github.io') ? `/${window.location.pathname.split('/')[1]}` : "/"}>
+  <App />
+</BrowserRouter>
 );
