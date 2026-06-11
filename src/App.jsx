@@ -6,6 +6,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 function App() {
   return (
     <Routes>
+      <Route path="/" element={<ProductsPage />} />
       <Route path="/products" element={<ProductsPage />} />
       <Route path="/product/:id" element={<ProductPage />} />
       <Route path="*" element={<NotFoundPage />} />
